@@ -51,6 +51,44 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+       public function actionClub()
+    {
+        return $this->render('club');
+    }
+    
+    public function actionNews()
+    {
+        return $this->render('news');
+    }
+    
+    public function actionRegistration()
+    {
+        return $this->render('registration');
+    }
+     public function actionGames()
+    {
+        return $this->render('games');
+    }
+     public function actionMulti()
+    {
+        return $this->render('multi');
+    }
+     public function actionFanzone()
+    {
+        return $this->render('fanzone');
+    }
+     public function actionPartners()
+    {
+        return $this->render('partners');
+    }
+     public function actionSsilki()
+    {
+        return $this->render('ssilki');
+    }
+     public function actionCommand()
+    {
+        return $this->render('command');
+    }
 
     public function actionLogin()
     {

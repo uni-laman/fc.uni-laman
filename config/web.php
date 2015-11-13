@@ -7,6 +7,24 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+        'urlManager' => [
+    'enablePrettyUrl' => true,
+    'showScriptName' => false,
+    'rules' => [
+        'login' => '/site/login',
+        'registration' => 'site/registration',
+        'logout'=>'/site/logout',
+        'club'=>'/site/club',
+        'news'=>'/site/news',
+        'multi'=>'/site/multi',
+        'fanzone'=>'/site/fanzone',
+        'partners'=>'/site/partners',
+        'ssilki'=>'/site/ssilki',
+        'command'=>'/site/command',
+        'games'=>'/site/games',
+        
+         ]
+            ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'fthdetjty7667',

@@ -90,7 +90,7 @@ AppAsset::register($this);
                             <li ><a class='menuahref' href='/web/multi'>Мультимедия</a></li>
                             <li ><a class='menuahref' href='/web/fanzone'>Фан зона</a></li>
                             <li ><a class='menuahref' href='/web/partners'>Партнеры</a></li>
-                            <li ><a class='menuahref' href='/web/contact'>Контакты</a></li>
+                            <li ><a class='menuahref' href='/web/site/contact'>Контакты</a></li>
                             <li ><a class='menuahref' href='/web'>&nbsp;</a></li>
                             <li ><a class='menuahref' href='/web'>&nbsp;</a></li>
                           
