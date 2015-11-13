@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.11.2015, 15:05:10
+    Author     : User
+*/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1); 
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(98, 123, 163, 1);
+    border-width: 1px;
+    border-radius: 14px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(98, 123, 163, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(239, 110, 110, 1) !important ;
+    background-color: rgba(62, 89, 136, 1) !important ;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(239, 110, 110, 1);
+    background-color: rgba(62, 89, 136, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #3e5988;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #3e5988;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #3e5988;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #627ba3;
+}
+
+ .menuahref
+   {
+     text-transform: upercase;
+     color:white !important;
+     text-decoration: none;
+     font-size: 20px;
+     letter-spacing: 1px;
+     font-family:dincondensedcregular;
+     
+   }
+.menuahref:hover
+   {
+     color: #F16C6C !important;
+     text-decoration: none;  
+   }
+   
+   @font-face {
+    font-family: dincondensedcregular; /* Гарнитура шрифта */
+    src: url(/web/fonts/DINPro-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+      .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    //width: 36px;
+    height: 100px;
+    margin-top: -15px;
+    z-index: 5;
+}
+body
+   {
+   background: url("/web/img/header-bg.jpg");
+   }
+   
+   .body-background
+       {
+           background-color: #3E5988;
+       }
+  .footerdiv
+   {
+       background-color: #3E5988;
+   }
+   
+    .round_ug
+       {
+          background-color: #627ba3;
+         -webkit-border-top-left-radius: 5px;
+         -webkit-border-bottom-left-radius: 5px;
+         -moz-border-radius-topleft: 5px;
+         -moz-border-radius-bottomleft: 5px;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          
+          -webkit-border-top-right-radius: 5px;
+         -webkit-border-bottom-right-radius: 5px;
+         -moz-border-radius-topright: 5px;
+         -moz-border-radius-bottomright: 5px;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          
+       }
+       .body-background
+       {
+           background-color: #3E5988;
+       }
+       .textindex
+       {
+           color:white;
+       }
+       .zaglavie
+       {
+           margin-bottom: 1%;
+           background:-webkit-linear-gradient(top,#141316 2%,#4e4b53 100%);
+           -webkit-border-top-left-radius: 5px;
+         -webkit-border-bottom-left-radius: 5px;
+         -moz-border-radius-topleft: 5px;
+         -moz-border-radius-bottomleft: 5px;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          
+          -webkit-border-top-right-radius: 5px;
+         -webkit-border-bottom-right-radius: 5px;
+         -moz-border-radius-topright: 5px;
+         -moz-border-radius-bottomright: 5px;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+       }
+       .sliderandright
+       {
+           background-color: #3E5988;
+       }
